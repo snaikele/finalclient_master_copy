@@ -16,7 +16,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=" Ascellent"
+        android:text="Ascellent"
         android:fontFamily="sans-serif-smallcaps"
         android:letterSpacing="0.05"
         android:textSize="28sp"
@@ -30,7 +30,7 @@
         android:fontFamily="sans-serif-smallcaps"
         android:letterSpacing="0.05"
         android:textSize="30sp"
-
+        android:layout_marginTop="5dp"
         android:layout_gravity="center_horizontal"
         android:textColor="#C6979494"/>
 
