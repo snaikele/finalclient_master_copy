@@ -11,7 +11,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Home"
+    tools:context="com.developer.akashkale.message.Home"
     android:orientation="vertical"
     >
     <android.support.v7.widget.Toolbar
@@ -54,6 +54,8 @@
     android:layout_marginTop="20dp"
     android:layout_centerHorizontal="true"
     android:background="@drawable/editext"
+    android:clickable="true"
+    android:focusable="true"
     />
     <TextView
         android:layout_width="wrap_content"
@@ -76,7 +78,9 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@id/btMessage"
         android:layout_marginTop="10dp"
-        android:background="@drawable/editext"/>
+        android:background="@drawable/editext"
+        android:clickable="true"
+        android:focusable="true"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -100,7 +104,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:background="@drawable/editext"
-        />
+        android:clickable="true"
+        android:focusable="true"/>
 
     <TextView
         android:layout_width="wrap_content"

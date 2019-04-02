@@ -1,9 +1,11 @@
-package com.developer.akashkale.client;
+package com.developer.akashkale.message;
 
 import android.content.Intent;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.developer.akashkale.client.R;
 
 public class splash extends AppCompatActivity {
 
@@ -19,6 +21,6 @@ public class splash extends AppCompatActivity {
                 startActivity(intent);
                 finish();
             }
-        },2800);
+        },3000);
     }
 }
